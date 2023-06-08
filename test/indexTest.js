@@ -48,10 +48,6 @@ describe('basic math functions', function () {
     expect(decrement(a)).toEqual(a - 1)
   })
 })
-
-
-
-
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
